@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Seven Favorites | Abdullah Alani</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+
+    --bg:#070b14;
+    --card:#111827;
+    --card-hover:#172033;
+
+    --text:#ffffff;
+    --muted:#94a3b8;
+
+    --accent:#60a5fa;
+    --accent2:#8b5cf6;
+
+    --border:rgba(255,255,255,.08);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    color:var(--text);
+
+    background:
+    radial-gradient(circle at top left,#1e3a8a 0%,transparent 30%),
+    radial-gradient(circle at top right,#6d28d9 0%,transparent 35%),
+    radial-gradient(circle at bottom,#0f172a 0%,transparent 40%),
+    var(--bg);
+
+    min-height:100vh;
+}
+
+a{
+    text-decoration:none;
+}
+
+.hero{
+
+    text-align:center;
+
+    padding:90px 20px 70px;
+}
+
+.hero h1{
+
+    font-size:clamp(3rem,8vw,6rem);
+
+    font-weight:800;
+
+    margin-bottom:15px;
+}
+
+.hero h2{
+
+    color:var(--accent);
+
+    font-weight:600;
+
+    margin-bottom:20px;
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:var(--muted);
+
+    line-height:1.8;
+}
+
+.stats{
+
+    margin-top:40px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+}
+
+.stat{
+
+    background:rgba(255,255,255,.04);
+
+    backdrop-filter:blur(14px);
+
+    border:1px solid var(--border);
+
+    border-radius:18px;
+
+    padding:18px 28px;
+
+    min-width:140px;
+}
+
+.stat strong{
+
+    display:block;
+
+    font-size:1.7rem;
+
+    margin-bottom:5px;
+}
+
+.container{
+
+    width:min(1400px,92%);
+
+    margin:auto;
+
+    padding-bottom:80px;
+}
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(330px,1fr));
+
+    gap:24px;
+}
+
+.card{
+
+    background:rgba(17,24,39,.85);
+
+    border:1px solid var(--border);
+
+    backdrop-filter:blur(14px);
+
+    border-radius:24px;
+
+    padding:24px;
+
+    transition:.35s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    background:var(--card-hover);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
+
+.card h3{
+
+    margin-bottom:18px;
+
+    font-size:1.15rem;
+}
+
+.card ol{
+
+    padding-left:22px;
+}
+
+.card li{
+
+    margin:12px 0;
+}
+
+.card a{
+
+    color:#dbeafe;
+
+    transition:.2s;
+}
+
+.card a:hover{
+
+    color:var(--accent);
+
+    padding-left:5px;
+}
+
+.top-btn{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:linear-gradient(
+    135deg,
+    var(--accent),
+    var(--accent2)
+    );
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+}
+
+footer{
+
+    text-align:center;
+
+    color:var(--muted);
+
+    padding:50px 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="hero">
+
+<h1>My Seven Favorites</h1>
+
+<h2>Abdullah Alani</h2>
+
+<p>
+A personal collection of my favorite books, movies,
+podcasts, people, places and much more.
+</p>
+
+<div class="stats">
+
+<div class="stat">
+<strong>21</strong>
+Categories
+</div>
+
+<div class="stat">
+<strong>147</strong>
+Favorites
+</div>
+
+<div class="stat">
+<strong>7</strong>
+Items Each
+</div>
+
+</div>
+
+</header>
+
+<main class="container">
+
+<div class="grid">
+    <div class="grid"></div>
+    <!-- 1 -->
+<div class="card">
+<h3>📚 Seven Books</h3>
+<ol>
+<li><a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D9%86%D9%87%D8%A7%D9%8A%D8%A9">البداية والنهاية</a></li>
+<li><a href="https://ar.wikipedia.org/wiki/%D9%85%D9%82%D8%AF%D9%85%D8%A9_%D8%A7%D8%A8%D9%86_%D8%AE%D9%84%D8%AF%D9%88%D9%86" target="_blank">مقدمة ابن خلدون</a></li>
+<li><a href="https://ar.wikipedia.org/wiki/%D9%85%D9%82%D8%AF%D9%85%D8%A9_%D9%81%D9%8A_%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_%D8%A7%D9%84%D8%AD%D8%B6%D8%A7%D8%B1%D8%A7%D8%AA_%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D9%85%D8%A9" target="_blank">مقدمة في تاريخ العراق القديم</a></li>
+<li><a href="https://en-wikipedia-org.translate.goog/wiki/50_Great_Myths_of_Popular_Psychology?_x_tr_sl=en&_x_tr_tl=ar&_x_tr_hl=ar&_x_tr_pto=sge" target="_blank">اشهر خمسين خرافة في علم النفس</a></li>
+<li><a href="https://ar.wikipedia.org/wiki/48_%D9%82%D8%A7%D9%86%D9%88%D9%86%D8%A7_%D9%84%D9%84%D8%B3%D9%84%D8%B7%D8%A9" target="_blank">48 قانونا للقوة</a></li>
+<li><a href="https://ar.wikipedia.org/wiki/%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE_%D8%A7%D9%84%D9%81%D9%83%D8%B1_%D8%A7%D9%84%D8%A3%D9%86%D8%AF%D9%84%D8%B3%D9%8A" target="_blank">تاريخ الفكر الاندلسي</a></li>
+<li><a href="https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A3%D8%A8_%D8%A7%D9%84%D8%BA%D9%86%D9%8A_%D9%88%D8%A7%D9%84%D8%A3%D8%A8_%D8%A7%D9%84%D9%81%D9%82%D9%8A%D8%B1" target="_blank">الأب الغني والأب الفقير</a></li>
+</ol>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<h3>🎙️ Seven Podcast Episodes</h3>
+<ol>
+<li><a href="https://youtu.be/Pfj4niPP0DY?si=JCjagNI0hSwPBfqb" target="_blank">كيف يمكن فهمك للقران ان يغير حياتك</a></li>
+<li><a href="https://youtu.be/pJ0auP7dbcY?si=DaoElqL5yGJ-LU4P" target="_blank">كيف تنجح العلاقات</a></li>
+<li><a href="https://youtu.be/_57DQt0CP48?si=1IVXx0bOw8Myil1U" target="_blank">كيف نبني زواجا مستقرا</a></li>
+<li><a href="https://youtu.be/AE12-id6Aw4?si=Z-x1lnpkMVB-AmOC" target="_blank">كيف نفهم المرأة والرجل</a></li>
+<li><a href="https://youtu.be/G-IYILvvFtc?si=guW60puGn7ORs3rI" target="_blank">كيف نبني علاقة مع الله</a></li>
+<li><a href="https://youtu.be/-i1uF3pa0oI?si=C8T6W50eY0tfgEO_" target="_blank">بناء القوة النفسية</a></li>
+<li><a href="https://youtu.be/RFRLVUb2GUM?si=tDr3nf5AI78oxAqB" target="_blank">تفكيك النفس البشرية</a></li>
+</ol>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<h3>🎬 Seven Movies</h3>
+<ol>
+<li><a href="#" target="_blank">Movie 1</a></li>
+<li><a href="#" target="_blank">Movie 2</a></li>
+<li><a href="#" target="_blank">Movie 3</a></li>
+<li><a href="#" target="_blank">Movie 4</a></li>
+<li><a href="#" target="_blank">Movie 5</a></li>
+<li><a href="#" target="_blank">Movie 6</a></li>
+<li><a href="#" target="_blank">Movie 7</a></li>
+</ol>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<h3>📺 Seven Series</h3>
+<ol>
+<li><a href="#" target="_blank">Series 1</a></li>
+<li><a href="#" target="_blank">Series 2</a></li>
+<li><a href="#" target="_blank">Series 3</a></li>
+<li><a href="#" target="_blank">Series 4</a></li>
+<li><a href="#" target="_blank">Series 5</a></li>
+<li><a href="#" target="_blank">Series 6</a></li>
+<li><a href="#" target="_blank">Series 7</a></li>
+</ol>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<h3>🎭 Seven Actors Male </h3>
+<ol>
+<li><a href="https://www.instagram.com/leonardodicaprio?igsh=MXBtNWo2M3YxMGthNg==" target="_blank">Leonardo DiCaprio</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Christian_Bale" target="_blank">Christian Bale</a></li>
+<li><a href="https://www.instagram.com/johnnydepp?igsh=cGN0MWV6ZHpwY3Rj" target="_blank">Johnny Depp</a></li>
+<li><a href="https://www.instagram.com/tomhardy?igsh=MTZ1dXJrb3Q0NTN3cQ==" target="_blank">Tom Hardy</a></li>
+<li><a href="https://www.instagram.com/jakegyllenhaal?igsh=NnAwZHBsdGRtYTV0" target="_blank">Jake Gyllenhaal</a></li>
+<li><a href="https://www.instagram.com/jakegyllenhaal?igsh=NnAwZHBsdGRtYTV0" target="_blank">Jake Gyllenhaal</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Brad_Pitt" target="_blank">Brad Pitt</a></li>
+</ol>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<h3>🌸 Seven Anime</h3>
+<ol>
+<li><a href="https://en.wikipedia.org/wiki/Case_Closed" target="_blank">Detective Conan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Naruto" target="_blank">Naruto</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Attack_on_Titan" target="_blank">Attack On Titan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter" target="_blank">Hunter x Hunter</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Death_Note" target="_blank">Death Note</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist" target="_blank">Fullmetal Alchemist</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Monster_(manga)" target="_blank">Monster</a></li>
+</ol>
+</div>
+
+<!-- 7 -->
+<div class="card">
+<h3>📖 Seven Quran Reciters</h3>
+<ol>
+<li><a href="#" target="_blank">Reciter 1</a></li>
+<li><a href="#" target="_blank">Reciter 2</a></li>
+<li><a href="#" target="_blank">Reciter 3</a></li>
+<li><a href="#" target="_blank">Reciter 4</a></li>
+<li><a href="#" target="_blank">Reciter 5</a></li>
+<li><a href="#" target="_blank">Reciter 6</a></li>
+<li><a href="#" target="_blank">Reciter 7</a></li>
+</ol>
+</div>
+
+<!-- 8 -->
+<div class="card">
+<h3>🎵 Seven Songs</h3>
+<ol>
+<li><a href="#" target="_blank">Song 1</a></li>
+<li><a href="#" target="_blank">Song 2</a></li>
+<li><a href="#" target="_blank">Song 3</a></li>
+<li><a href="#" target="_blank">Song 4</a></li>
+<li><a href="#" target="_blank">Song 5</a></li>
+<li><a href="#" target="_blank">Song 6</a></li>
+<li><a href="#" target="_blank">Song 7</a></li>
+</ol>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<h3>🎤 Seven Singers</h3>
+<ol>
+<li><a href="#" target="_blank">Singer 1</a></li>
+<li><a href="#" target="_blank">Singer 2</a></li>
+<li><a href="#" target="_blank">Singer 3</a></li>
+<li><a href="#" target="_blank">Singer 4</a></li>
+<li><a href="#" target="_blank">Singer 5</a></li>
+<li><a href="#" target="_blank">Singer 6</a></li>
+<li><a href="#" target="_blank">Singer 7</a></li>
+</ol>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<h3>⚽ Seven Football Clubs</h3>
+<ol>
+<li><a href="#" target="_blank">Club 1</a></li>
+<li><a href="#" target="_blank">Club 2</a></li>
+<li><a href="#" target="_blank">Club 3</a></li>
+<li><a href="#" target="_blank">Club 4</a></li>
+<li><a href="#" target="_blank">Club 5</a></li>
+<li><a href="#" target="_blank">Club 6</a></li>
+<li><a href="#" target="_blank">Club 7</a></li>
+</ol>
+</div>
+<!-- 11 -->
+<div class="card">
+<h3>🥅 Seven Footballers</h3>
+<ol>
+<li><a href="#" target="_blank">Footballer 1</a></li>
+<li><a href="#" target="_blank">Footballer 2</a></li>
+<li><a href="#" target="_blank">Footballer 3</a></li>
+<li><a href="#" target="_blank">Footballer 4</a></li>
+<li><a href="#" target="_blank">Footballer 5</a></li>
+<li><a href="#" target="_blank">Footballer 6</a></li>
+<li><a href="#" target="_blank">Footballer 7</a></li>
+</ol>
+</div>
+
+<!-- 12 -->
+<div class="card">
+<h3>🧠 Seven Football Coaches</h3>
+<ol>
+<li><a href="#" target="_blank">Coach 1</a></li>
+<li><a href="#" target="_blank">Coach 2</a></li>
+<li><a href="#" target="_blank">Coach 3</a></li>
+<li><a href="#" target="_blank">Coach 4</a></li>
+<li><a href="#" target="_blank">Coach 5</a></li>
+<li><a href="#" target="_blank">Coach 6</a></li>
+<li><a href="#" target="_blank">Coach 7</a></li>
+</ol>
+</div>
+
+<!-- 13 -->
+<div class="card">
+<h3>🎯 Seven Hobbies</h3>
+<ol>
+<li><a href="#" target="_blank">Hobby 1</a></li>
+<li><a href="#" target="_blank">Hobby 2</a></li>
+<li><a href="#" target="_blank">Hobby 3</a></li>
+<li><a href="#" target="_blank">Hobby 4</a></li>
+<li><a href="#" target="_blank">Hobby 5</a></li>
+<li><a href="#" target="_blank">Hobby 6</a></li>
+<li><a href="#" target="_blank">Hobby 7</a></li>
+</ol>
+</div>
+
+<!-- 14 -->
+<div class="card">
+<h3>🌍 Seven Tourist Attractions</h3>
+<ol>
+<li><a href="#" target="_blank">Attraction 1</a></li>
+<li><a href="#" target="_blank">Attraction 2</a></li>
+<li><a href="#" target="_blank">Attraction 3</a></li>
+<li><a href="#" target="_blank">Attraction 4</a></li>
+<li><a href="#" target="_blank">Attraction 5</a></li>
+<li><a href="#" target="_blank">Attraction 6</a></li>
+<li><a href="#" target="_blank">Attraction 7</a></li>
+</ol>
+</div>
+
+<!-- 15 -->
+<div class="card">
+<h3>🖼️ Seven Paintings</h3>
+<ol>
+<li><a href="#" target="_blank">Painting 1</a></li>
+<li><a href="#" target="_blank">Painting 2</a></li>
+<li><a href="#" target="_blank">Painting 3</a></li>
+<li><a href="#" target="_blank">Painting 4</a></li>
+<li><a href="#" target="_blank">Painting 5</a></li>
+<li><a href="#" target="_blank">Painting 6</a></li>
+<li><a href="#" target="_blank">Painting 7</a></li>
+</ol>
+</div>
+
+<!-- 16 -->
+<div class="card">
+<h3>🐉 Seven Fantasy Novels</h3>
+<ol>
+<li><a href="#" target="_blank">Novel 1</a></li>
+<li><a href="#" target="_blank">Novel 2</a></li>
+<li><a href="#" target="_blank">Novel 3</a></li>
+<li><a href="#" target="_blank">Novel 4</a></li>
+<li><a href="#" target="_blank">Novel 5</a></li>
+<li><a href="#" target="_blank">Novel 6</a></li>
+<li><a href="#" target="_blank">Novel 7</a></li>
+</ol>
+</div>
+
+<!-- 17 -->
+<div class="card">
+<h3>🚗 Seven Cars</h3>
+<ol>
+<li><a href="#" target="_blank">Car 1</a></li>
+<li><a href="#" target="_blank">Car 2</a></li>
+<li><a href="#" target="_blank">Car 3</a></li>
+<li><a href="#" target="_blank">Car 4</a></li>
+<li><a href="#" target="_blank">Car 5</a></li>
+<li><a href="#" target="_blank">Car 6</a></li>
+<li><a href="#" target="_blank">Car 7</a></li>
+</ol>
+</div>
+
+<!-- 18 -->
+<div class="card">
+<h3>🍽️ Seven Restaurants</h3>
+<ol>
+<li><a href="#" target="_blank">Restaurant 1</a></li>
+<li><a href="#" target="_blank">Restaurant 2</a></li>
+<li><a href="#" target="_blank">Restaurant 3</a></li>
+<li><a href="#" target="_blank">Restaurant 4</a></li>
+<li><a href="#" target="_blank">Restaurant 5</a></li>
+<li><a href="#" target="_blank">Restaurant 6</a></li>
+<li><a href="#" target="_blank">Restaurant 7</a></li>
+</ol>
+</div>
+
+<!-- 19 -->
+<div class="card">
+<h3>🏅 Seven Athletes</h3>
+<ol>
+<li><a href="#" target="_blank">Athlete 1</a></li>
+<li><a href="#" target="_blank">Athlete 2</a></li>
+<li><a href="#" target="_blank">Athlete 3</a></li>
+<li><a href="#" target="_blank">Athlete 4</a></li>
+<li><a href="#" target="_blank">Athlete 5</a></li>
+<li><a href="#" target="_blank">Athlete 6</a></li>
+<li><a href="#" target="_blank">Athlete 7</a></li>
+</ol>
+</div>
+
+<!-- 20 -->
+<div class="card">
+<h3>▶️ Seven YouTube Channels</h3>
+<ol>
+<li><a href="#" target="_blank">Channel 1</a></li>
+<li><a href="#" target="_blank">Channel 2</a></li>
+<li><a href="#" target="_blank">Channel 3</a></li>
+<li><a href="#" target="_blank">Channel 4</a></li>
+<li><a href="#" target="_blank">Channel 5</a></li>
+<li><a href="#" target="_blank">Channel 6</a></li>
+<li><a href="#" target="_blank">Channel 7</a></li>
+</ol>
+</div>
+
+<!-- 21 -->
+<div class="card">
+<h3>⭐ Seven Influencers</h3>
+<ol>
+<li><a href="#" target="_blank">Influencer 1</a></li>
+<li><a href="#" target="_blank">Influencer 2</a></li>
+<li><a href="#" target="_blank">Influencer 3</a></li>
+<li><a href="#" target="_blank">Influencer 4</a></li>
+<li><a href="#" target="_blank">Influencer 5</a></li>
+<li><a href="#" target="_blank">Influencer 6</a></li>
+<li><a href="#" target="_blank">Influencer 7</a></li>
+</ol>
+</div>
+
+<!-- 22 -->
+<div class="card">
+<h3>🎭 Seven Actors Female</h3>
+<ol>
+<li><a href="https://www.instagram.com/annehathaway?igsh=MTFvdGRoZTZ0MHA2Mw==" target="_blank">Anne Hathaway</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Scarlett_Johansson" target="_blank">Scarlett Johansson</a></li>
+<li><a href="https://www.instagram.com/ana_d_armas?igsh=MW1weWdlZTd6dXNrcQ==" target="_blank">Ana de Armas</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Angelina_Jolie" target="_blank">Angelina Jolie</a></li>
+<li><a href="https://www.instagram.com/anyataylorjoy?igsh=MWY3OGEwaWQwZndhZA==" target="_blank">Anya Taylor-Joy</a></li>
+<li><a href="https://www.instagram.com/lilyjcollins?igsh=eDY3b28xeTZpdjg1" target="_blank">Lily Collins</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Zendaya" target="_blank">zendaya</a></li>
+</ol>
+</div>
+
+
+
+</div>
+</main>
+
+<button class="top-btn" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+↑
+</button>
+
+<footer>
+Created with ❤️ by Abdullah Alani
+</footer>
+
+</body>
+</html><a href="#" target="_blank">Movie 1</a>
+<a href="https://example.com" target="_blank">Interstellar</a>
